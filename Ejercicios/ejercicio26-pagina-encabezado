@@ -1,0 +1,16 @@
+<?php
+//Funcion de encabezado y colocacion del titulo
+function hacer_encabezado($titulo)
+{
+    $encabezado="<html><head><title>$titulo</title></head>";
+    echo $encabezado;
+}
+
+include(libreria.php);
+$titulo="Mi Cocina";
+hacer_encabezado($titulo);
+?>
+<body>
+
+</body>
+</html>
